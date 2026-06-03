@@ -1,0 +1,8 @@
+{
+  "_description": "Manual player \u2192 team overrides applied at appearance-resolution time. Used for off-season trades/signings that Underdog's slate metadata hasn't reflected yet. Once Underdog updates their player data, remove the corresponding entry from `overrides` below. Keys must be EXACT 'First Last' name as returned by Underdog. Values are NFL team abbreviations matching Underdog's team codes (typically standard NFL codes \u2014 verify by spot-checking a draft page).",
+  "_loaded_by": "Extension/extension/underdog_adapter.js (chrome.runtime.getURL fetch at adapter init)",
+  "_last_updated": "2026-06-03",
+  "overrides": {
+    "Brandon Aiyuk": "WAS"
+  }
+}
