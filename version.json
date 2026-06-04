@@ -1,0 +1,9 @@
+{
+  "latest_version": "2.1.0",
+  "released_at": "2026-06-04",
+  "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.0",
+  "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
+  "min_supported_version": "2.0.0",
+  "release_summary": "First public tester release: FPTS ranks, hosted-data architecture, Export Live button"
+}
