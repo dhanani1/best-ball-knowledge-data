@@ -14,9 +14,11 @@ It reads what's on your draft screen — it does NOT log in for you, does NOT to
 
 ## 2. Installing the extension (one-time, ~3 minutes)
 
-You'll get a zip file from Zain (link in your email or Google Drive).
+1. **Download the zip** from this link (works on any browser, no login required):
 
-1. **Download the zip** to your computer.
+   👉 **https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip**
+
+   Bookmark that URL — it always points to the latest version, so you can re-download from the same link whenever you need to update.
 2. **Right-click → Extract / Unzip** (Mac: double-click; Windows: right-click → Extract All). You should end up with a folder named something like `extension`. Remember where you put it — moving it later will break the extension.
 3. Open Chrome.
 4. In the address bar, type `chrome://extensions` and hit Enter.
@@ -63,11 +65,14 @@ it means your computer couldn't reach GitHub (where the data lives) and the exte
 
 ## 5. When you DO need to update the extension
 
-Zain will only send a new zip when there's **new code** — a new feature, a bug fix, a tuning improvement, etc. Data refreshes (daily ADP) do NOT require a new zip.
+You only need to update when there's **new code** — a new feature, a bug fix, a tuning improvement, etc. Data refreshes (daily ADP) do NOT require an update.
 
-When a new zip arrives:
+When Zain announces a new version:
 
-1. Download the new zip.
+1. Download the latest zip from the same link as the install step:
+
+   👉 **https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip**
+
 2. Unzip it. **Overwrite the old folder** (or unzip somewhere new and update the path).
 3. Go to `chrome://extensions`.
 4. Find **Best Ball Knowledge by FPTS** in the list.
