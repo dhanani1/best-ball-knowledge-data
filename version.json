@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.4",
+  "latest_version": "2.1.5",
   "released_at": "2026-06-04",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.4",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.5",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Refined: Wk15 / Wk16 / Wk17 toggles now surface bring-backs only — flip on any week and every opposing-team player for your roster's matchups that week gets the colored '17·CIN' badge. The separate Bring-back toggle is gone (folded in)."
+  "release_summary": "Fix: opposing QB no longer tagged as a bring-back when you already have a QB at that matchup, even if you also have a same-game WR/RB/TE there (e.g. Burrow + Chase no longer shows the BB tag on Lamar in Wk17)."
 }
