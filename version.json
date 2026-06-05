@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.9",
+  "latest_version": "2.1.10",
   "released_at": "2026-06-05",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.9",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.10",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "QB stack-completion calibration fix (BBM7 + Puppy contests only). Per Chris Wecht's feedback that BPA/CLV matter less for QBs since correlation dominates, position-specific BPA decay + CLV per-pick + single-anchor stack weight now let stack-completion candidates win over higher-ADP non-stack QBs when ranks are close. Example: Herbert (with McConkey LAC + Rice KC bring-back) now correctly ranks above Dak (no DAL stack-mate). BigDog regressed in cross-validation so the fix is BBM7+Puppy-scoped."
+  "release_summary": "PC-side stack-completion calibration (BBM7 + Puppy + BigDog). Symmetric to v2.1.9's QB fix: stack-mate PCs (WR/TE on user's QB team) now have a muted reach penalty (target_reach_per_pick_pc_stack=-3 vs -6 default) so the stack signal can compete with CLV when the PC is past ADP. Example: at the Wilson/Meyers decision, Meyers (JAX bring-back for TLAW user) now correctly ranks above Wilson despite being 14 picks past ADP. Cross-validated: BBM7 Δlog_u=-0.002 (t=-0.97), Puppy Δlog_u=-0.003 (t=-1.07), BigDog Δlog_u=+0.0025 (t=+1.06) — all three pass EV gates; BigDog actually improves on tail prize (+$7.8K)."
 }
