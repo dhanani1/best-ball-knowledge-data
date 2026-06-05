@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.8",
+  "latest_version": "2.1.9",
   "released_at": "2026-06-05",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.8",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.9",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "QB bring-back fix: when a QB candidate's team plays one of your invested PC teams in a playoff week (e.g. drafting Herbert when you already have McConkey on LAC and Rice on KC for Wk17), the recommender now correctly credits the bring-back game-stack. Bring-back legs surface on the rec card as 'vs OPP wkN' tags."
+  "release_summary": "QB stack-completion calibration fix (BBM7 + Puppy contests only). Per Chris Wecht's feedback that BPA/CLV matter less for QBs since correlation dominates, position-specific BPA decay + CLV per-pick + single-anchor stack weight now let stack-completion candidates win over higher-ADP non-stack QBs when ranks are close. Example: Herbert (with McConkey LAC + Rice KC bring-back) now correctly ranks above Dak (no DAL stack-mate). BigDog regressed in cross-validation so the fix is BBM7+Puppy-scoped."
 }
