@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.7",
+  "latest_version": "2.1.8",
   "released_at": "2026-06-05",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.7",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.8",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Fix: build-archetype detection (Robust RB / Hero RB / Zero RB × QB tier × TE modifier) now reads correctly from your draft, instead of always defaulting to Zero RB. Validated EV-neutral on the BBM7 paired sweep."
+  "release_summary": "QB bring-back fix: when a QB candidate's team plays one of your invested PC teams in a playoff week (e.g. drafting Herbert when you already have McConkey on LAC and Rice on KC for Wk17), the recommender now correctly credits the bring-back game-stack. Bring-back legs surface on the rec card as 'vs OPP wkN' tags."
 }
