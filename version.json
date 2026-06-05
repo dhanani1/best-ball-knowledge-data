@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.6",
+  "latest_version": "2.1.7",
   "released_at": "2026-06-05",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.6",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.7",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Fix: past-ADP undrafted players (e.g. LaPorta/Fannin past their ADP) no longer get unfairly buried below right-at-ADP players in the recommendation list while you're waiting to pick. Display-only fix — zero EV impact, verified by paired sweep."
+  "release_summary": "Fix: build-archetype detection (Robust RB / Hero RB / Zero RB × QB tier × TE modifier) now reads correctly from your draft, instead of always defaulting to Zero RB. Validated EV-neutral on the BBM7 paired sweep."
 }
