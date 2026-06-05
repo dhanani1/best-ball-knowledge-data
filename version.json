@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.5",
-  "released_at": "2026-06-04",
+  "latest_version": "2.1.6",
+  "released_at": "2026-06-05",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.5",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.6",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Fix: opposing QB no longer tagged as a bring-back when you already have a QB at that matchup, even if you also have a same-game WR/RB/TE there (e.g. Burrow + Chase no longer shows the BB tag on Lamar in Wk17)."
+  "release_summary": "Fix: past-ADP undrafted players (e.g. LaPorta/Fannin past their ADP) no longer get unfairly buried below right-at-ADP players in the recommendation list while you're waiting to pick. Display-only fix — zero EV impact, verified by paired sweep."
 }
