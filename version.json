@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.1.10",
-  "released_at": "2026-06-05",
+  "latest_version": "2.1.11",
+  "released_at": "2026-06-08",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.10",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.1.11",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "PC-side stack-completion calibration (BBM7 + Puppy + BigDog). Symmetric to v2.1.9's QB fix: stack-mate PCs (WR/TE on user's QB team) now have a muted reach penalty (target_reach_per_pick_pc_stack=-3 vs -6 default) so the stack signal can compete with CLV when the PC is past ADP. Example: at the Wilson/Meyers decision, Meyers (JAX bring-back for TLAW user) now correctly ranks above Wilson despite being 14 picks past ADP. Cross-validated: BBM7 Δlog_u=-0.002 (t=-0.97), Puppy Δlog_u=-0.003 (t=-1.07), BigDog Δlog_u=+0.0025 (t=+1.06) — all three pass EV gates; BigDog actually improves on tail prize (+$7.8K)."
+  "release_summary": "CLV calibration: sigma-normalized deadzone + round-aware decay (BBM7 + Puppy + BigDog). Per Chris's feedback that ranks should matter more late and CLV less, plus the JCM-vs-Rachaad-White case where sub-pick ADP noise overrode a 28-rank gap. Two new global knobs: `clv_deadzone_sigma=0.3` mutes CLV when the value/reach gap is within 0.3σ (kills noise floor), and `clv_round_decay_strength=0.5` scales CLV impact by `(1-s) + s × earlyRoundPriorityMult(round)` so late-round CLV shrinks while early-round arbitrage stays meaningful. Cross-contest: BBM7 +$2353 prize / -0.67 rd1, Puppy +$150 prize / -0.67 rd1, BigDog +$6867 prize / -2.15 rd1 — all accept a small floor-for-ceiling trade. v2.1.10 PC-stack wins reinforced: Meyers/Wilson margin grew from 0.01 to 5.64."
 }
