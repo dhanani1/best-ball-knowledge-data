@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.3.3",
+  "latest_version": "2.3.4",
   "released_at": "2026-06-12",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.3",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.4",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Hard-exclude same-position same-team QB/RB/TE duplicates from the rec list entirely. v2.3.2 blocked chain credit but allowed candidates to surface via other signals (e.g., Woody Marks still at #2 via BPA/scarcity). v2.3.3 filters them out at the candidate stage \u2014 they no longer appear in the recs at all. WR-WR same-team continues to use the v2.3.2 chain-credit gate (candidate can still surface for 3rd same-team WR via BPA/CLV, just no chain bonus). Verified Marks disappears from top 15 at R13 P147 (Crispy has Monty HOU); Wan'Dale flip preserved (39.60 #3 over Doubs 36.52); Aaron Jones still #2; Hunter still buried; all v2.1.x triggers unaffected."
+  "release_summary": "GONE badge horizon fix. The availStatus tier (available/contested/unlikely/likely_gone driving the GONE badge in the UI) was using probAvailable (survival to current turn) instead of probAvailableNextTurn (survival to NEXT turn after current). The strategic question is \"will he be here if I pass at my current turn?\" \u2014 that needs next-turn horizon. One-line code change; recommender scoring math unchanged. Effect: more players show GONE late in drafts, correctly reflecting that mid-late picks often disappear over the 7-12 pick wait between user turns."
 }
