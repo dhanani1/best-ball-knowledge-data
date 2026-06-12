@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.3.0",
-  "released_at": "2026-06-12",
+  "latest_version": "2.3.1",
+  "released_at": "2026-06-11",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.0",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.1",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Empirical past-ADP survival curve. Replaces v2.2.0's flat 5%/pick sniper rate (which underestimated faller risk by ~3x) with a 2D hazard table calibrated on 12,100,350 BBM5 picks. Bucketed by (ADP tier x picks-relative-to-ADP): T4_deep hazard goes 8.8% at ADP -> 11.3% just past -> 13.1% past -> 15.4% far past -> 16.6% way past, matching the empirically observed accelerating hazard. Net effect: the GONE badge now correctly fires on ALL contested players (not just pre-ADP ones). On Chris's R12 P136 case: Higgins probAvail drops 0.77->0.42 (now flagged GONE), Coker 0.77->0.51 (now GONE), Shaheed 0.43->0.60 (less alarmist). recScores barely move (max delta +0.52 -> well within ship tolerance, no refit needed). v2.1.13 _qualityMult + v2.2.0 chain accumulators compose correctly: Hunter rank 165 at pick 137 stays at #8 score=1.4 (effectively buried). New knob: survival_curve_mode (0=legacy logistic+sniper, 1=empirical). Shipped at mode=1 across all 15 contests."
+  "release_summary": "Hotfix: v2.2.0 ship silently dropped chain weights for 12 child contests due to autostash event during ship. Each child now correctly inherits parent weights including same_team_chain_weight and opposing_team_chain_weight. Wan Dale flip on Puppy R10 P112 now works as v2.2.0 intended."
 }
