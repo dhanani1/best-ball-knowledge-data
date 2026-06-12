@@ -1,9 +1,9 @@
 {
-  "latest_version": "2.3.2",
+  "latest_version": "2.3.3",
   "released_at": "2026-06-12",
   "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.2",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.3",
   "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "Chain accumulator strategic gates. Four hard rules layered onto v2.3.1's chain accumulators that block credit when it'd be positionally redundant. (1) Same-position same-team duplicates: QB-QB / RB-RB / TE-TE same team blocked; WR-WR same team allowed up to 2 (3-WR-starter logic). (2) First bring-back only: if user has any mate on candidate's team, opposing-team chain blocked. (3) Stack-QB gate: if candidate is QB and user has QB+PC same-team stack, bring-back QB chain blocked. (4) Stack-TE gate: if candidate is TE and user has TE+QB same-team stack, bring-back TE chain blocked. Triggered by Woody Marks recommended #1 at Chris R13 P147 (4 RBs already, Marks completes RB-RB same-team chain with Monty). Verified: Marks falls to #2 (Antonio Williams now #1). Wan'Dale R10 P112 flip preserved (chain credit unchanged in that case). Aaron Jones R10 P112 stays #2. Hunter still buried. Net knob delta: 0. Pure strategic rules \u2014 no sweep needed."
+  "release_summary": "Hard-exclude same-position same-team QB/RB/TE duplicates from the rec list entirely. v2.3.2 blocked chain credit but allowed candidates to surface via other signals (e.g., Woody Marks still at #2 via BPA/scarcity). v2.3.3 filters them out at the candidate stage \u2014 they no longer appear in the recs at all. WR-WR same-team continues to use the v2.3.2 chain-credit gate (candidate can still surface for 3rd same-team WR via BPA/CLV, just no chain bonus). Verified Marks disappears from top 15 at R13 P147 (Crispy has Monty HOU); Wan'Dale flip preserved (39.60 #3 over Doubs 36.52); Aaron Jones still #2; Hunter still buried; all v2.1.x triggers unaffected."
 }
