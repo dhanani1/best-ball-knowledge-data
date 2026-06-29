@@ -1,9 +1,9 @@
 {
   "latest_version": "2.3.5",
-  "released_at": "2026-06-12",
-  "download_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/latest/download/bbk-extension.zip",
-  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-data/releases/tag/v2.3.5",
-  "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-data/blob/main/USER_GUIDE.md",
+  "released_at": "2026-06-24",
+  "download_url": "https://github.com/dhanani1/best-ball-knowledge-rd-public/releases/latest/download/bbk-extension-rd.zip",
+  "release_notes_url": "https://github.com/dhanani1/best-ball-knowledge-rd-public/releases/latest",
+  "user_guide_url": "https://github.com/dhanani1/best-ball-knowledge-rd-public/blob/main/INSTALL_RD.md",
   "min_supported_version": "2.0.0",
-  "release_summary": "GONE badge threshold tightened from 0.7 to 0.5. Reserves GONE for stronger-signal cases (>50% gone risk = more likely gone than not). Avoids over-flagging the late-round candidate pool now that v2.3.4 uses next-turn horizon (where 7-12 pick waits dramatically compound hazard for past-ADP players). Available tier now 0.5+ (was 0.7+); contested 0.3-0.5 (was 0.3-0.7); unlikely 0.1-0.3 and likely_gone <0.1 unchanged."
+  "release_summary": "R&D build with ETR + LegUp consensus. Draft Plan + Portfolio modes enabled. Daily ADP refresh via private data sidecar — extension auto-fetches fresh ranks without manual updates."
 }

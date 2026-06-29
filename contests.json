@@ -89,7 +89,7 @@
         "3751-37500": 5.0
       },
       "first_seen_at": "2026-05-08T16:37:38.096609",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_big_dog": {
@@ -98,7 +98,7 @@
       "entry_fee": 500.0,
       "max_entries": 64,
       "entry_style_id": "57e0daa1-5e01-452c-8550-25f044aa59bd",
-      "entry_count": 292,
+      "entry_count": 348,
       "total_prize": 1000000,
       "first_place": 200000.0,
       "bracket_info": "Round Advancement: 2/12 - 1/6 - 1/6 - 10 Seat Final",
@@ -173,7 +173,7 @@
         "61-360": 1000.0
       },
       "first_seen_at": "2026-05-08T16:37:38.096609",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "best_ball_mania_vii": {
@@ -182,7 +182,7 @@
       "entry_fee": 25.0,
       "max_entries": 150,
       "entry_style_id": "ce5c6b35-fb98-4be2-89f2-6d4b4e03e380",
-      "entry_count": 152078,
+      "entry_count": 175302,
       "total_prize": 13500000,
       "first_place": 2000000.0,
       "bracket_info": "Round Advancement: 2/12 - 1/14 - 1/12 - 667 Seat Final",
@@ -267,7 +267,7 @@
         "8005-112056": 25.0
       },
       "first_seen_at": "2026-05-08T16:37:38.096609",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_dachshund": {
@@ -356,7 +356,7 @@
         "313-936": 24.0
       },
       "first_seen_at": "2026-05-08T16:37:38.096609",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_mini_golden": {
@@ -515,7 +515,7 @@
       "entry_fee": 20.0,
       "max_entries": 10,
       "entry_style_id": "b05c45f1-ad3c-48a9-9d95-806396f36532",
-      "entry_count": 16177,
+      "entry_count": 20237,
       "total_prize": 500000,
       "first_place": 100000.0,
       "bracket_info": "Round Advancement: 2/12 - 1/6 - 1/5 - 156 Seat Final",
@@ -596,7 +596,7 @@
         "781-4680": 20.0
       },
       "first_seen_at": "2026-05-15T08:04:24.266750",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_frenchie_3": {
@@ -679,7 +679,7 @@
       "entry_fee": 5.0,
       "max_entries": 150,
       "entry_style_id": "4eb4fe85-baf0-4575-bfb4-4a660d0bd23b",
-      "entry_count": 814,
+      "entry_count": 1220,
       "total_prize": 0,
       "first_place": 0.0,
       "bracket_info": "Round Advancement: 4/12 - 4/12 - 4/8 - 556 Seat Final",
@@ -740,7 +740,7 @@
       ],
       "payouts": {},
       "first_seen_at": "2026-05-20T08:06:47.730679",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_pomeranian": {
@@ -827,7 +827,7 @@
         "7521-37600": 3.0
       },
       "first_seen_at": "2026-05-27T15:59:55.607857",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_hound_dog": {
@@ -1080,7 +1080,7 @@
       },
       "first_seen_at": "2026-06-01T16:17:39.369909",
       "last_seen_at": "2026-06-22T18:19:49.957137",
-      "status_in_api": "active"
+      "status_in_api": "stale"
     },
     "the_frenchie_5": {
       "name": "The Frenchie 5",
@@ -1252,7 +1252,7 @@
         "565-3384": 11.0
       },
       "first_seen_at": "2026-06-09T17:00:14.228163",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_frenchie_6": {
@@ -1341,7 +1341,7 @@
       "entry_fee": 1000.0,
       "max_entries": 16,
       "entry_style_id": "4e56ff0c-d5f7-420d-a7e2-95defc24dddf",
-      "entry_count": 22,
+      "entry_count": 29,
       "total_prize": 500000,
       "first_place": 100000.0,
       "bracket_info": "Round Advancement: 4/12 - 1/5 - 1/4 - 9 Seat Final",
@@ -1414,7 +1414,7 @@
         "37-180": 1000.0
       },
       "first_seen_at": "2026-06-16T12:42:23.736448",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_poodle": {
@@ -1423,7 +1423,7 @@
       "entry_fee": 7.0,
       "max_entries": 20,
       "entry_style_id": "188c9370-2176-42d2-909f-819eb57e45c8",
-      "entry_count": 12026,
+      "entry_count": 55798,
       "total_prize": 350000,
       "first_place": 40000.0,
       "bracket_info": "Round Advancement: 2/12 - 1/6 - 1/5 - 310 Seat Final",
@@ -1506,7 +1506,7 @@
         "1551-9300": 7.0
       },
       "first_seen_at": "2026-06-22T18:19:49.957137",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     },
     "the_bulldog": {
@@ -1597,9 +1597,190 @@
         "125-372": 75.0
       },
       "first_seen_at": "2026-06-22T18:19:49.957137",
-      "last_seen_at": "2026-06-22T18:19:49.957137",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
+      "status_in_api": "active"
+    },
+    "the_dalmatian": {
+      "name": "The Dalmatian",
+      "tournament_id": "6b92d57f-7b68-407a-b8bb-b06cffe4a42f",
+      "entry_fee": 101.0,
+      "max_entries": 3,
+      "entry_style_id": "a552f951-ec68-4a7f-9b40-1c3de24410a6",
+      "entry_count": 115,
+      "total_prize": 250000,
+      "first_place": 30000.0,
+      "bracket_info": "Round Advancement: 4/12 - 1/5 - 1/8 - 23 Seat Final",
+      "status": "unfilled",
+      "roster_size": 18,
+      "draft_rounds": 18,
+      "teams_per_draft": 12,
+      "scoring": "half_ppr",
+      "starters": {
+        "QB": 1,
+        "RB": 2,
+        "WR": 3,
+        "TE": 1,
+        "FLEX": 1
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "weeks": [
+            1,
+            14
+          ],
+          "group_size": 12,
+          "advance_per_group": 4,
+          "note": "Wk1-14 cumulative"
+        },
+        {
+          "round": 2,
+          "weeks": [
+            15,
+            15
+          ],
+          "group_size": 5,
+          "advance_per_group": 1,
+          "note": "Wk15 single week"
+        },
+        {
+          "round": 3,
+          "weeks": [
+            16,
+            16
+          ],
+          "group_size": 8,
+          "advance_per_group": 1,
+          "note": "Wk16 single week"
+        },
+        {
+          "round": 4,
+          "weeks": [
+            17,
+            17
+          ],
+          "group_size": 23,
+          "advance_per_group": 23,
+          "note": "23-seat final, Wk17",
+          "is_final": true
+        }
+      ],
+      "payouts": {
+        "1": 30000.0,
+        "2": 20000.0,
+        "3": 15000.0,
+        "4": 10314.0,
+        "5": 9000.0,
+        "6": 8000.0,
+        "7": 7000.0,
+        "8": 6000.0,
+        "9": 5000.0,
+        "10": 4000.0,
+        "11-15": 3000.0,
+        "16-20": 2000.0,
+        "21-23": 1000.0,
+        "24-46": 450.0,
+        "47-69": 250.0,
+        "70-184": 150.0,
+        "185-920": 101.0
+      },
+      "first_seen_at": "2026-06-29T16:11:22.680824",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
+      "status_in_api": "active"
+    },
+    "the_little_dalmatian": {
+      "name": "The Little Dalmatian",
+      "tournament_id": "9be71122-4880-4cb8-afa7-f508779bd554",
+      "entry_fee": 1.0,
+      "max_entries": 101,
+      "entry_style_id": "cee131de-c035-4423-b476-99a314841ba1",
+      "entry_count": 18054,
+      "total_prize": 100000,
+      "first_place": 20000.0,
+      "bracket_info": "Round Advancement: 3/12 - 1/10 - 1/6 - 470 Seat Final",
+      "status": "unfilled",
+      "roster_size": 18,
+      "draft_rounds": 18,
+      "teams_per_draft": 12,
+      "scoring": "half_ppr",
+      "starters": {
+        "QB": 1,
+        "RB": 2,
+        "WR": 3,
+        "TE": 1,
+        "FLEX": 1
+      },
+      "rounds": [
+        {
+          "round": 1,
+          "weeks": [
+            1,
+            14
+          ],
+          "group_size": 12,
+          "advance_per_group": 3,
+          "note": "Wk1-14 cumulative"
+        },
+        {
+          "round": 2,
+          "weeks": [
+            15,
+            15
+          ],
+          "group_size": 10,
+          "advance_per_group": 1,
+          "note": "Wk15 single week"
+        },
+        {
+          "round": 3,
+          "weeks": [
+            16,
+            16
+          ],
+          "group_size": 6,
+          "advance_per_group": 1,
+          "note": "Wk16 single week"
+        },
+        {
+          "round": 4,
+          "weeks": [
+            17,
+            17
+          ],
+          "group_size": 470,
+          "advance_per_group": 470,
+          "note": "470-seat final, Wk17",
+          "is_final": true
+        }
+      ],
+      "payouts": {
+        "1": 20000.0,
+        "2": 10000.0,
+        "3": 5000.0,
+        "4": 3000.0,
+        "5": 2000.0,
+        "6": 1490.0,
+        "7": 1200.0,
+        "8": 1000.0,
+        "9": 800.0,
+        "10": 600.0,
+        "11-15": 500.0,
+        "16-20": 400.0,
+        "21-25": 200.0,
+        "26-30": 101.0,
+        "31-50": 50.0,
+        "51-75": 40.0,
+        "76-100": 35.0,
+        "101-200": 30.0,
+        "201-300": 25.0,
+        "301-470": 20.0,
+        "471-2820": 5.0,
+        "2821-28200": 1.0
+      },
+      "first_seen_at": "2026-06-29T16:11:22.680824",
+      "last_seen_at": "2026-06-29T16:11:22.680824",
       "status_in_api": "active"
     }
   },
-  "updated_at": "2026-06-22T18:19:49.957137"
+  "updated_at": "2026-06-29T16:11:22.680824"
 }
